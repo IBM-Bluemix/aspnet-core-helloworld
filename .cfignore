@@ -7,3 +7,4 @@ bin/
 README.md
 project.lock.json
 Properties/
+test/

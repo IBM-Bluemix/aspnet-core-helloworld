@@ -1,0 +1,9 @@
+.vs/
+artifacts/
+bin/
+*.xproj*
+*.sln
+project.lock.json
+manifest.yml
+global.json
+*.md

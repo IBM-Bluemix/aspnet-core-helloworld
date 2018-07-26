@@ -2,6 +2,13 @@
 
 A simple ASP.NET Core web application for the [ASP.NET Core buildpack][].
 
+## Deploy in Cloud foundry
+1. Install ASP.NET Core by following the [Getting Started][] instructions
++ cd into the app directory and then `src/WebApplication`
++ Run `dotnet publish -c release`
++ cd into `bin/release/netcoreapp<version>/publish`
++ run `cf push hellowordapp`
+
 [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/IBM-Bluemix/aspnet-core-helloworld)
 
 ## Run the app locally
